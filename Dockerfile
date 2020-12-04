@@ -10,6 +10,7 @@ ENV CATALINA_HOME /usr/share/tomcat9
 ENV CATALINA_BASE /var/lib/tomcat9
 ENV CONTEXT_PATH ROOT
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
+ENV LANG=C.UTF-8
 
 RUN apt-get -qq update --fix-missing && \
 	apt-get --no-install-recommends -y install \
